@@ -10,3 +10,7 @@ delete recordsToDelete;
 Account parentForFlowTest = new Account(Name = 'Parent with Rating - for Unit Test', Rating = 'Warm', Description = 'For presentation.', AccountNumber = 'Presentation');
 
 insert new List<SObject>{parentForFlowTest};
+
+
+//CLI: sf flow run test -y -c
+// -y: synchronous tests; -c retrieve coverage
