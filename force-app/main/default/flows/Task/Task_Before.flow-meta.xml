@@ -14,6 +14,7 @@
             </value>
         </assignmentItems>
     </assignments>
+    <description>Presentation</description>
     <environments>Default</environments>
     <interviewLabel>Task Before Flo {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Task Before</label>
