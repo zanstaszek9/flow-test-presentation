@@ -14,7 +14,7 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Is_Priority_not_set</targetReference>
+            <targetReference>Is_Rating_not_set</targetReference>
         </connector>
     </assignments>
     <assignments>
@@ -36,7 +36,7 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <defaultConnector>
-            <targetReference>Is_Priority_not_set</targetReference>
+            <targetReference>Is_Rating_not_set</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Parent is not linked</defaultConnectorLabel>
         <rules>
@@ -56,8 +56,8 @@
         </rules>
     </decisions>
     <decisions>
-        <name>Is_Priority_not_set</name>
-        <label>Is Priority not set?</label>
+        <name>Is_Rating_not_set</name>
+        <label>Is Rating not set?</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
